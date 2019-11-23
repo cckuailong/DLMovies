@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4a9f9-8a34-486d-8f20-203ab3bfaec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build BgpWebsite">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build BgpWebsite" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="BgpWebsite" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build BgpWebsite" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build BgpWebsite" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

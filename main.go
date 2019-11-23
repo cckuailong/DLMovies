@@ -15,10 +15,10 @@ func main() {
 	//	})
 	//})
 	//_ = app.Run(iris.Addr(":8080"))
-	fmt.Println(vars.Dbconfig.DBHost)
+	db := connectDb()
 }
 
-func deal_db(){
+func connectDb()*sqlx.DB{
 	dbname := "tp_bgp_data"
 	dns := fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8",
 		vars.Dbconfig.DBUsername, vars.Dbconfig.DBPassword, vars.Dbconfig.DBHost, dbname)
@@ -27,4 +27,5 @@ func deal_db(){
 		fmt.Println(err)
 	}
 	defer db.Close()
+	return db
 }
