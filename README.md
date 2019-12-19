@@ -24,4 +24,5 @@ go build main.go
 
 ### 网站效果图
 
+![](https://github.com/cckuailong/DLMovies/blob/master/img/demo.png)
 

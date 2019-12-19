@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4a9f9-8a34-486d-8f20-203ab3bfaec8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BgpWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DLMovies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/db.toml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/db.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tp_bgp_data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/asInfos.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/asNames.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/asRels.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/asSets.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/changeLogs.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/links.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/monitors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/origins.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repos/links.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
