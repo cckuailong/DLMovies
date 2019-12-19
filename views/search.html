@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>影片搜索下载</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .wrap{
+            width: 100%;
+        }
+        .mainbody{
+            width: 70%;
+            height: 260px;
+            margin: 0 auto;
+        }
+        .logo{
+            display: block;
+            margin: 75px auto 25px;
+            width: 270px;
+            height: 129px;
+        }
+        .tubiao{
+            width: 630px;
+            margin: 0 auto;
+        }
+        #submit{
+            width: 100px;
+            height: 36px;
+            background: #3385ff;
+            border: 1px solid #06F;
+            color: #fff;
+            font-size: 15px;
+            vertical-align: top;
+        }
+        #search{
+            width: 526px;
+            height: 36px;
+            box-sizing: border-box;
+        }
+
+        #table-1{
+            width:60%;
+            margin: auto;
+            border-radius: 10px;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+        #table-1 thead, #table-1 th{
+            border-radius: 10px;
+            background-color: rgb(81,130,187);
+            color: #fff;
+        }
+        #table-1 td{
+            color: #000;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-family: Verdana;
+            font-weight: bold;
+        }
+        #table-1 tr,#table-1 td{
+            border-radius: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(81,130,187);
+        }
+        #table-1 th {
+            padding: 5px 10px;
+            font-size: 16px;
+            font-family: Verdana;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <!--图标-->
+    <div class="mainbody">
+        <img class="logo" src="/static/logo.jfif"/>
+        <div class="tubiao">
+            <form action="/search" method="get">
+                <input type="search" id="search" name="title"/><input type="submit" id="submit" value="搜索"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+<table id="table-1">
+    <tr>
+        <th>影片</th>
+        <th>下载地址</th>
+    </tr>
+    {{range .infos}}
+        <tr>
+            <td rowspan="{{.Len}}">{{.Title}}</td>
+        </tr>
+            {{range $i,$mmap := .Urls}}
+                {{range $k,$v := $mmap}}
+                    <tr>
+                    <td>
+                        {{$k}}: <br>{{$v}}
+                    </td>
+                    </tr>
+                {{end}}
+            {{end}}
+    {{end}}
+</table>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
 # db config
 DBHost = "localhost"
-DBUsername = "root"
-DBPassword = "1q2w3e4r"
+DBUsername = "" # mysql 用户名
+DBPassword = "" # mysql密码
