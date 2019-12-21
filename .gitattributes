@@ -1,0 +1,4 @@
+*.py linguist-language=go
+*.sql linguist-language=go
+*.html linguist-language=go
+*.toml linguist-language=go
